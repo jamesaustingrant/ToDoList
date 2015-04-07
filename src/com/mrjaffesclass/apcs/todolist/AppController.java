@@ -20,7 +20,7 @@ public class AppController implements MessageHandler {
   private final AppModel appModel;
 
   /**
-   * Controller constructor The Controller is responsible for creating the MainView
+   * Controller constructor The Controller  creates the MainView
    * and the AppModel that it will be controlling. The messenger object is
    * passed to the view and the model and is used as a messenger class
    * between the Controller, AppModel and MainView without needing a persistent
